@@ -1,0 +1,24 @@
+[0.678s] Invoking command in '/home/martin/dev_ws/src/py_nodes': PYTHONPATH=/home/martin/dev_ws/build/py_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_nodes build --build-base /home/martin/dev_ws/build/py_nodes/build install --record /home/martin/dev_ws/build/py_nodes/install.log --install-scripts $base/lib/py_nodes --single-version-externally-managed install_data
+[0.896s] running egg_info
+[0.896s] writing ../../build/py_nodes/py_nodes.egg-info/PKG-INFO
+[0.896s] writing dependency_links to ../../build/py_nodes/py_nodes.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/py_nodes/py_nodes.egg-info/entry_points.txt
+[0.897s] writing requirements to ../../build/py_nodes/py_nodes.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/py_nodes/py_nodes.egg-info/top_level.txt
+[0.933s] reading manifest file '../../build/py_nodes/py_nodes.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/py_nodes/py_nodes.egg-info/SOURCES.txt'
+[0.934s] running build
+[0.934s] running build_py
+[0.934s] copying py_nodes/control_node.py -> /home/martin/dev_ws/build/py_nodes/build/lib/py_nodes
+[0.934s] running install
+[0.935s] running install_lib
+[0.936s] copying /home/martin/dev_ws/build/py_nodes/build/lib/py_nodes/control_node.py -> /home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages/py_nodes
+[0.936s] byte-compiling /home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages/py_nodes/control_node.py to control_node.cpython-38.pyc
+[0.938s] running install_data
+[0.938s] running install_egg_info
+[0.940s] removing '/home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages/py_nodes-0.0.0-py3.8.egg-info' (and everything under it)
+[0.940s] Copying ../../build/py_nodes/py_nodes.egg-info to /home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages/py_nodes-0.0.0-py3.8.egg-info
+[0.942s] running install_scripts
+[0.958s] Installing controller script to /home/martin/dev_ws/install/py_nodes/lib/py_nodes
+[0.958s] writing list of installed files to '/home/martin/dev_ws/build/py_nodes/install.log'
+[0.979s] Invoked command in '/home/martin/dev_ws/src/py_nodes' returned '0': PYTHONPATH=/home/martin/dev_ws/build/py_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/dev_ws/install/py_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_nodes build --build-base /home/martin/dev_ws/build/py_nodes/build install --record /home/martin/dev_ws/build/py_nodes/install.log --install-scripts $base/lib/py_nodes --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[0.023s] Invoking command in '/home/martin/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/martin/dev_ws/src/urdf_example-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/martin/dev_ws/install/urdf_example
+[0.514s] -- The C compiler identification is GNU 9.4.0
+[1.010s] -- The CXX compiler identification is GNU 9.4.0
+[1.182s] -- Check for working C compiler: /usr/bin/cc
+[1.332s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.334s] -- Detecting C compiler ABI info
+[1.484s] -- Detecting C compiler ABI info - done
+[1.497s] -- Detecting C compile features
+[1.497s] -- Detecting C compile features - done
+[1.501s] -- Check for working CXX compiler: /usr/bin/c++
+[1.689s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.690s] -- Detecting CXX compiler ABI info
+[1.875s] -- Detecting CXX compiler ABI info - done
+[1.887s] -- Detecting CXX compile features
+[1.888s] -- Detecting CXX compile features - done
+[1.908s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.937s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.937s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.118s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.165s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.256s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.261s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.262s] -- Added test 'lint_cmake' to check CMake code style
+[2.263s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.266s] -- Added test 'xmllint' to check XML markup files
+[2.270s] -- Configuring done
+[2.273s] -- Generating done
+[2.274s] -- Build files have been written to: /home/martin/dev_ws/build/urdf_example
+[2.281s] Invoked command in '/home/martin/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/martin/dev_ws/src/urdf_example-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/martin/dev_ws/install/urdf_example
+[2.282s] Invoking command in '/home/martin/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/martin/dev_ws/build/urdf_example -- -j12 -l12
+[2.320s] Invoked command in '/home/martin/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/martin/dev_ws/build/urdf_example -- -j12 -l12
+[2.347s] Invoking command in '/home/martin/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/martin/dev_ws/build/urdf_example
+[2.355s] -- Install configuration: ""
+[2.355s] -- Execute custom install script
+[2.357s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[2.367s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro:Zone.Identifier
+[2.376s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_include.xacro
+[2.385s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_include.xacro:Zone.Identifier
+[2.395s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[2.403s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro:Zone.Identifier
+[2.413s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[2.421s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py:Zone.Identifier
+[2.431s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[2.440s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py:Zone.Identifier
+[2.449s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/worlds/test_world.world
+[2.458s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/worlds/test_world.world:Zone.Identifier
+[2.468s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[2.477s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[2.486s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[2.495s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[2.504s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/environment/path.sh
+[2.513s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/environment/path.dsv
+[2.522s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/local_setup.bash
+[2.531s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/local_setup.sh
+[2.540s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/local_setup.zsh
+[2.548s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/local_setup.dsv
+[2.557s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/package.dsv
+[2.566s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[2.576s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[2.584s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[2.593s] -- Symlinking: /home/martin/dev_ws/install/urdf_example/share/urdf_example/package.xml
+[2.604s] Invoked command in '/home/martin/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/martin/dev_ws/build/urdf_example

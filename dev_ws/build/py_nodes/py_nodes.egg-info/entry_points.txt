@@ -1,0 +1,3 @@
+[console_scripts]
+controller = py_nodes.control_node:main
+

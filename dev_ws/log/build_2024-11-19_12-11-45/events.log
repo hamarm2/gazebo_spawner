@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.000190] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000209] (-) JobUnselected: {'identifier': 'py_nodes'}
+[0.000226] (-) JobUnselected: {'identifier': 'urdf_example'}
+[0.000243] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.036s] Invoking command in '/home/martin/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/martin/dev_ws/build/my_bot -- -j12 -l12
+[0.231s] Invoked command in '/home/martin/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/martin/dev_ws/build/my_bot -- -j12 -l12
+[0.280s] Invoking command in '/home/martin/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/martin/dev_ws/build/my_bot
+[0.293s] -- Install configuration: ""
+[0.294s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.296s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/config/empty.yaml:Zone.Identifier
+[0.298s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/description/colors.xacro
+[0.298s] -- Symlinking: /home/martin/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.319s] -- Symlinking: /home/martin/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro:Zone.Identifier
+[0.333s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.336s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro:Zone.Identifier
+[0.336s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.336s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.337s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py:Zone.Identifier
+[0.338s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.339s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/worlds/empty.world:Zone.Identifier
+[0.340s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.340s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.340s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.340s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.342s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.342s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.343s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.344s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.344s] -- Symlinking: /home/martin/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.358s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.358s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.359s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.359s] -- Up-to-date symlink: /home/martin/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.376s] Invoked command in '/home/martin/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/martin/dev_ws/build/my_bot
