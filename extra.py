@@ -10,9 +10,10 @@ class Cylinder():
     
     drawColour = col.DARK_GREY
     
-    def __init__(self, center, r):
+    def __init__(self, center, r, height = 0):
         self.S = center    # coords of the center
         self.r = r
+        self.height = height
         
     def draw(self, surface):    pygame.draw.circle(surface, Cylinder.drawColour, self.S, self.r)
     
@@ -21,11 +22,12 @@ class Box():
     
     drawColour = col.TEAL
     
-    def __init__(self, S, corner, yaw):
+    def __init__(self, S, corner, yaw, height = 0):
         self.S = S  # coords of the center
         self.a = abs(S[0]-corner[0]) * 2
         self.b = abs(S[1]-corner[1]) * 2
         self.yaw = yaw
+        self.height = height
         
         l = math.dist(S,corner)
         k = math.asin(self.b/2/l)     
