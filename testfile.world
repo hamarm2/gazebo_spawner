@@ -7,268 +7,70 @@
     <uri>model://ground_plane</uri>
   </include>
 
-<model name="cyl00">
-  <pose frame="">-23.3 12.6 1.75 0 0 0</pose>
-  <link name="cyl00link">
-    <visual name="visual1">
-      <geometry>
-        <cylinder>
-          <radius>5.470831746635972</radius>
-          <length>3.5</length>
-        </cylinder>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <cylinder>
-          <radius>5.470831746635972</radius>
-          <length>3.5</length>
-        </cylinder>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>399775.15263179224</ixx>
-        <iyy>399775.15263179224</iyy>
-        <izz>703563.5232224349</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>47013.93406097125</mass>
-    </inertial>
-  </link>
-</model>
-
-<model name="cyl01">
-  <pose frame="">-13.1 12.4 1.5 0 0 0</pose>
-  <link name="cyl01link">
-    <visual name="visual1">
-      <geometry>
-        <cylinder>
-          <radius>4.750789408087881</radius>
-          <length>2.9999999999999996</length>
-        </cylinder>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <cylinder>
-          <radius>4.750789408087881</radius>
-          <length>2.9999999999999996</length>
-        </cylinder>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>226632.49126465098</ixx>
-        <iyy>226632.49126465098</iyy>
-        <izz>400085.6728856607</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>35452.87309576081</mass>
-    </inertial>
-  </link>
-</model>
-
-<model name="cyl02">
-  <pose frame="">-3.3 13.4 1.25 0 0 0</pose>
-  <link name="cyl02link">
-    <visual name="visual1">
-      <geometry>
-        <cylinder>
-          <radius>5.162363799656123</radius>
-          <length>2.499999999999999</length>
-        </cylinder>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <cylinder>
-          <radius>5.162363799656123</radius>
-          <length>2.499999999999999</length>
-        </cylinder>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>300706.70381692005</ixx>
-        <iyy>300706.70381692005</iyy>
-        <izz>557807.4471035443</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>41861.722109083996</mass>
-    </inertial>
-  </link>
-</model>
-
-<model name="cyl03">
-  <pose frame="">7.1 13.1 1 0 0 0</pose>
-  <link name="cyl03link">
-    <visual name="visual1">
-      <geometry>
-        <cylinder>
-          <radius>5.0774009099144415</radius>
-          <length>1.9999999999999987</length>
-        </cylinder>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <cylinder>
-          <radius>5.0774009099144415</radius>
-          <length>1.9999999999999987</length>
-        </cylinder>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>274489.48480418243</ixx>
-        <iyy>274489.48480418243</iyy>
-        <izz>521982.2167385166</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>40495.12930477243</mass>
-    </inertial>
-  </link>
-</model>
-
-<model name="cyl04">
-  <pose frame="">15.1 12.9 0.25 0 0 0</pose>
-  <link name="cyl04link">
-    <visual name="visual1">
-      <geometry>
-        <cylinder>
-          <radius>2.8635642126552705</radius>
-          <length>0.499999999999998</length>
-        </cylinder>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <cylinder>
-          <radius>2.8635642126552705</radius>
-          <length>0.499999999999998</length>
-        </cylinder>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>26673.43062591634</ixx>
-        <iyy>26673.43062591634</iyy>
-        <izz>52810.172506844414</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>12880.529879718151</mass>
-    </inertial>
-  </link>
-</model>
-
 <model name="box00">
-  <pose frame="">-22.8 -13.6 0.25 0 0 -0.58138</pose>
+  <pose frame="">-26.4 22.2 1.75 0 0 0.591971</pose>
   <link name="box00link">
     <visual name="visual1">
       <geometry>
         <box>
-          <size>18.6 3.6 0.5</size>
+          <size>40 2.6 3.5</size>
         </box>
       </geometry>
     </visual>
     <collision name="collision1">
       <geometry>
         <box>
-          <size>18.6 3.6 0.5</size>
+          <size>40 2.6 3.5</size>
         </box>
       </geometry>
+      <laser_retro>500.0</laser_retro>
     </collision>
     <inertial>
       <inertia>
-        <ixx>18427.949999999928</ixx>
-        <iyy>13322.249999999893</iyy>
-        <izz>500693.39999999804</izz>
+        <ixx>288318.3333333334</ixx>
+        <iyy>2309125.0</iyy>
+        <izz>24369193.333333332</izz>
         <ixy>0</ixy>
         <ixz>0</ixz>
         <iyz>0</iyz>
       </inertia>
       <pose frame="">0 0 0 0 0 0</pose>
-      <mass>16739.999999999935</mass>
+      <mass>182000.0</mass>
     </inertial>
   </link>
 </model>
 
-<model name="box01">
-  <pose frame="">-1.7 -21.5 0.95 0 0 -1.5335</pose>
-  <link name="box01link">
+<model name="cyl00">
+  <pose frame="">-15.3 -18.6 1.75 0 0 0</pose>
+  <link name="cyl00link">
     <visual name="visual1">
       <geometry>
-        <box>
-          <size>4.8 14.8 1.9</size>
-        </box>
+        <cylinder>
+          <radius>6.177378084592201</radius>
+          <length>3.5</length>
+        </cylinder>
       </geometry>
     </visual>
     <collision name="collision1">
       <geometry>
-        <box>
-          <size>4.8 14.8 1.9</size>
-        </box>
+        <cylinder>
+          <radius>6.177378084592201</radius>
+          <length>3.5</length>
+        </cylinder>
       </geometry>
+      <laser_retro>1000.0</laser_retro>
     </collision>
     <inertial>
       <inertia>
-        <ixx>1252183.5999999992</ixx>
-        <iyy>71593.51999999987</iyy>
-        <izz>1361457.9199999992</izz>
+        <ixx>633033.1188132011</ixx>
+        <iyy>633033.1188132011</iyy>
+        <izz>1143685.4958058118</izz>
         <ixy>0</ixy>
         <ixz>0</ixz>
         <iyz>0</iyz>
       </inertia>
       <pose frame="">0 0 0 0 0 0</pose>
-      <mass>67487.99999999996</mass>
-    </inertial>
-  </link>
-</model>
-
-<model name="box02">
-  <pose frame="">20.5 -20.4 2 0 0 -0.565915</pose>
-  <link name="box02link">
-    <visual name="visual1">
-      <geometry>
-        <box>
-          <size>7.6 17.2 4</size>
-        </box>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <box>
-          <size>7.6 17.2 4</size>
-        </box>
-      </geometry>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>6793954.133333333</ixx>
-        <iyy>1010901.3333333334</iyy>
-        <izz>7703765.333333332</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>261440.0</mass>
+      <mass>59941.58783049326</mass>
     </inertial>
   </link>
 </model>

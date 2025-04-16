@@ -2,11 +2,11 @@ import pygame, sys
 from pygame.locals import *
 import copy
 from math import dist
-from math import asin
-from math import acos
+# from math import asin
+# from math import acos
 from math import sin
 from math import cos
-from math import copysign
+# from math import copysign
 from math import atan2
 from math import pi
 import json

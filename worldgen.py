@@ -4,6 +4,10 @@ import math
 
 #file.write("")
 
+# default reflectivities
+BOX_REFL = 500
+CYL_REFL = 1000
+
 def begin(file):
     file.write("<sdf version='1.5'>\n")
     file.write("<world name=\"default\">\n")
@@ -20,7 +24,7 @@ def end(file):
     file.write("</world>\n")
     file.write("</sdf>\n")
     
-def box(file, x, y, yaw, modelName, linkName, a, b, c, density):
+def box(file, x, y, yaw, modelName, linkName, a, b, c, density, reflectivity = BOX_REFL):
 
     link = sdf.create_sdf_element("link")
     
@@ -33,6 +37,9 @@ def box(file, x, y, yaw, modelName, linkName, a, b, c, density):
     
     collision = sdf.create_sdf_element("collision")
     #collision.density = density       # not available?  default is 1000 (density of water)
+    #lasTag = sdf.create_sdf_element("laser_retro")
+    #lasTag._set_value(BOX_REFL)
+    collision._add_child_element("laser_retro", BOX_REFL)
     boxC = sdf.create_sdf_element("box")
     boxC.size = [a, b, c]    # in x, y, z
     collision.geometry.box = boxC
@@ -57,7 +64,7 @@ def box(file, x, y, yaw, modelName, linkName, a, b, c, density):
     print(modelName + " finished")
     
 
-def cylinder(file, x, y, modelName, linkName, r, h, density):
+def cylinder(file, x, y, modelName, linkName, r, h, density, reflectivity = CYL_REFL):
 
     link = sdf.create_sdf_element("link")
     
@@ -73,6 +80,7 @@ def cylinder(file, x, y, modelName, linkName, r, h, density):
     densTag = sdf.create_sdf_element("density")
     densTag._set_value(density)
     collision.density = densTag
+    collision._add_child_element("laser_retro", CYL_REFL)
     cylinderC  = sdf.create_sdf_element("cylinder")
     cylinderC.radius = r
     cylinderC.length = h
