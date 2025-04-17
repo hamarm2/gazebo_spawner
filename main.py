@@ -27,12 +27,15 @@ obstacleHeight = 3.5
 width = 1400     # velikost celeho okna, pocatek v levem hornim rohu
 height = 1200
 canvasOrigin = (100, 100)   # pocatek platna, ktery je v jeho levem hornim rohu
-grid = 10      # grid line distance
+grid = 10      # grid line distance, 1 m in gazebo = distance between grid lines
+robotBoxWidth = 2.48     # in gazebo m
+robotBoxHeight = 13.350    # in gazebo m
+
 canvasWidth = width-2*canvasOrigin[0]
 canvasHeight = height-2*canvasOrigin[1]
 center = (width/2, height/2)
 crossSize = 0.005
-robotSize = 0.05
+robotSize = 0.04
 
 buttonDist = 10
 textMargin = 10
@@ -98,7 +101,8 @@ rob_yaw = 0     # in rad, calculated from waypoints and latest robot coords
 
 obstacles = list()
 waypoints = list()
-robCoordsList = [(center[0], center[1])]    # should not be withour coordinates
+robCoordsList = [(center[0], center[1])]    # should not be without coordinates
+robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
 undoList = list() # will contain pointers to the above lists
 
 
@@ -191,6 +195,7 @@ while(True):
     x = robCoordsList[-1][0]+(min(width, height)*robotSize/2)*cos(rob_yaw) 
     y = robCoordsList[-1][1]-(min(width, height)*robotSize/2)*sin(rob_yaw) 
     pygame.draw.line(window, col.CYAN, robCoordsList[-1], (x,y), width = 2)
+    robotBox.draw2(window, col.BLACK, width = 3)
     
     # draw a cylinder currently in the making
     if cyl_on and (canvasOrigin[0] < cursor[0] < canvasOrigin[0]+canvasWidth  and  canvasOrigin[1] < cursor[1] < canvasOrigin[1]+canvasHeight):     # mouse on canvas
@@ -342,12 +347,15 @@ while(True):
                     print("robot coordinates changed")
                     undoList.append(robCoordsList)
                     if len(waypoints) >= 1: rob_yaw = (atan2(waypoints[0][0]-robCoordsList[-1][0], waypoints[0][1]-robCoordsList[-1][1]) - pi/2) % (pi*2)    #; print(rob_yaw)
+                    robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
                         
                 if way_on:
                     waypoints.append(copy.deepcopy(cursor))
                     print("waypoint created")
                     undoList.append(waypoints)
-                    if len(waypoints) == 1: rob_yaw = (atan2(cursor[0]-robCoordsList[-1][0], cursor[1]-robCoordsList[-1][1]) - pi/2) % (pi*2)     #; print(rob_yaw)
+                    if len(waypoints) == 1: 
+                        rob_yaw = (atan2(cursor[0]-robCoordsList[-1][0], cursor[1]-robCoordsList[-1][1]) - pi/2) % (pi*2)     #; print(rob_yaw)
+                        robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
                         
                     
 
