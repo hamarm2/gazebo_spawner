@@ -102,7 +102,7 @@ rob_yaw = 0     # in rad, calculated from waypoints and latest robot coords
 obstacles = list()
 waypoints = list()
 robCoordsList = [(center[0], center[1])]    # should not be without coordinates
-robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
+robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid*0.5, robCoordsList[-1][1] - robotBoxHeight*grid*0.5), rob_yaw+pi/2)
 undoList = list() # will contain pointers to the above lists
 
 
@@ -273,6 +273,7 @@ while(True):
             if(undoBT_x < cursor[0] < undoBT_x+buttonWidth   and  button_y < cursor[1] < button_y+buttonHeight):
                 if len(undoList) > 0: undoList.pop().pop()
                 if len(waypoints) >= 1: rob_yaw = (atan2(waypoints[0][0]-robCoordsList[-1][0], waypoints[0][1]-robCoordsList[-1][1]) - pi/2) % (pi*2)      #; print(rob_yaw)
+                robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid*0.5, robCoordsList[-1][1] - robotBoxHeight*grid*0.5), rob_yaw+pi/2)
                 
             if(saveBT_x < cursor[0] < saveBT_x+buttonWidth   and  button_y < cursor[1] < button_y+buttonHeight):
                 # world generation part ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -303,6 +304,7 @@ while(True):
                 if(len(undoList) != 0): 
                     for i in range(0, len(undoList)): undoList.pop().pop()
                 rob_yaw = 0
+                robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid*0.5, robCoordsList[-1][1] - robotBoxHeight*grid*0.5), rob_yaw+pi/2)
             
             # height down
             if(hDisp_x < cursor[0] < hDisp_x+hDescWidth   and  button_y < cursor[1] < button_y+hDispHeight):    obstacleHeight -= 0.1
@@ -347,7 +349,7 @@ while(True):
                     print("robot coordinates changed")
                     undoList.append(robCoordsList)
                     if len(waypoints) >= 1: rob_yaw = (atan2(waypoints[0][0]-robCoordsList[-1][0], waypoints[0][1]-robCoordsList[-1][1]) - pi/2) % (pi*2)    #; print(rob_yaw)
-                    robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
+                    robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid*0.5, robCoordsList[-1][1] - robotBoxHeight*grid*0.5), rob_yaw+pi/2)
                         
                 if way_on:
                     waypoints.append(copy.deepcopy(cursor))
@@ -355,7 +357,7 @@ while(True):
                     undoList.append(waypoints)
                     if len(waypoints) == 1: 
                         rob_yaw = (atan2(cursor[0]-robCoordsList[-1][0], cursor[1]-robCoordsList[-1][1]) - pi/2) % (pi*2)     #; print(rob_yaw)
-                        robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid, robCoordsList[-1][1] - robotBoxHeight*grid), rob_yaw+pi/2)
+                        robotBox = Box(robCoordsList[-1], (robCoordsList[-1][0] - robotBoxWidth*grid*0.5, robCoordsList[-1][1] - robotBoxHeight*grid*0.5), rob_yaw+pi/2)
                         
                     
 

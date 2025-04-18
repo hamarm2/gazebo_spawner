@@ -7,70 +7,2769 @@
     <uri>model://ground_plane</uri>
   </include>
 
-<model name="box00">
-  <pose frame="">-26.4 22.2 1.75 0 0 0.591971</pose>
-  <link name="box00link">
-    <visual name="visual1">
-      <geometry>
-        <box>
-          <size>40 2.6 3.5</size>
-        </box>
-      </geometry>
-    </visual>
-    <collision name="collision1">
-      <geometry>
-        <box>
-          <size>40 2.6 3.5</size>
-        </box>
-      </geometry>
-      <laser_retro>500.0</laser_retro>
-    </collision>
-    <inertial>
-      <inertia>
-        <ixx>288318.3333333334</ixx>
-        <iyy>2309125.0</iyy>
-        <izz>24369193.333333332</izz>
-        <ixy>0</ixy>
-        <ixz>0</ixz>
-        <iyz>0</iyz>
-      </inertia>
-      <pose frame="">0 0 0 0 0 0</pose>
-      <mass>182000.0</mass>
-    </inertial>
-  </link>
-</model>
-
 <model name="cyl00">
-  <pose frame="">-15.3 -18.6 1.75 0 0 0</pose>
+  <pose frame="">-36.9 -19.4 0.25 0 0 0</pose>
   <link name="cyl00link">
     <visual name="visual1">
       <geometry>
         <cylinder>
-          <radius>6.177378084592201</radius>
-          <length>3.5</length>
+          <radius>1.6155494421403513</radius>
+          <length>0.499999999999998</length>
         </cylinder>
       </geometry>
     </visual>
     <collision name="collision1">
       <geometry>
         <cylinder>
-          <radius>6.177378084592201</radius>
-          <length>3.5</length>
+          <radius>1.6155494421403513</radius>
+          <length>0.499999999999998</length>
         </cylinder>
       </geometry>
       <laser_retro>1000.0</laser_retro>
     </collision>
     <inertial>
       <inertia>
-        <ixx>633033.1188132011</ixx>
-        <iyy>633033.1188132011</iyy>
-        <izz>1143685.4958058118</izz>
+        <ixx>2760.5174647093513</ixx>
+        <iyy>2760.5174647093513</iyy>
+        <izz>5350.210828879759</izz>
         <ixy>0</ixy>
         <ixz>0</ixz>
         <iyz>0</iyz>
       </inertia>
       <pose frame="">0 0 0 0 0 0</pose>
-      <mass>59941.58783049326</mass>
+      <mass>4099.778412934681</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl01">
+  <pose frame="">-49.8 -19.4 0.25 0 0 0</pose>
+  <link name="cyl01link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.8867962264113207</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.8867962264113207</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>5093.411809387571</ixx>
+        <iyy>5093.411809387571</iyy>
+        <izz>9953.822163633902</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5592.034923389832</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl02">
+  <pose frame="">-50.2 -13.3 0.25 0 0 0</pose>
+  <link name="cyl02link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.74928556845359</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.74928556845359</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3777.215387227345</ixx>
+        <iyy>3777.215387227345</iyy>
+        <izz>7354.154242788343</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4806.636759992382</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl03">
+  <pose frame="">-36.8 -12.4 0.25 0 0 0</pose>
+  <link name="cyl03link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.802775637731995</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.802775637731995</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>4254.240051736181</ixx>
+        <iyy>4254.240051736181</iyy>
+        <izz>8295.768100885554</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5105.088062083416</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl04">
+  <pose frame="">-35.7 -5.7 0.25 0 0 0</pose>
+  <link name="cyl04link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.8973665961010275</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.8973665961010275</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>5207.18982332508</ixx>
+        <iyy>5207.18982332508</iyy>
+        <izz>10178.760197630929</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5654.8667764616275</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl05">
+  <pose frame="">-50.8 -5.3 0.25 0 0 0</pose>
+  <link name="cyl05link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.838477631085024</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.838477631085024</radius>
+          <length>0.499999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>4596.961630304048</ixx>
+        <iyy>4596.961630304048</iyy>
+        <izz>8972.702777917815</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5309.291584566753</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl06">
+  <pose frame="">-51.4 2.8 0.5 0 0 0</pose>
+  <link name="cyl06link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.96468827043885</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.96468827043885</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>6356.3320561306655</ixx>
+        <iyy>6356.3320561306655</iyy>
+        <izz>11702.118475356618</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>6063.2738214283</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl07">
+  <pose frame="">-34.1 3.5 0.5 0 0 0</pose>
+  <link name="cyl07link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.9924858845171276</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.9924858845171276</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>6708.962741526732</ixx>
+        <iyy>6708.962741526732</iyy>
+        <izz>12378.581913490843</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>6236.061417375739</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box00">
+  <pose frame="">-51.9 18.6 0.75 0 0 -0.229038</pose>
+  <link name="box00link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>4 19.2 1.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>4 19.2 1.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1780271.999999998</ixx>
+        <iyy>39599.99999999989</iyy>
+        <izz>1846271.9999999974</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>57599.99999999993</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl08">
+  <pose frame="">-44.6 31.1 1 0 0 0</pose>
+  <link name="cyl08link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>2.8160255680657444</radius>
+          <length>1.9999999999999987</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>2.8160255680657444</radius>
+          <length>1.9999999999999987</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>28846.9807732106</ixx>
+        <iyy>28846.9807732106</iyy>
+        <izz>49389.684965432185</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>12456.414871483528</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box01">
+  <pose frame="">-26.2 36.3 0.75 0 0 0.15809</pose>
+  <link name="box01link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>23.6 2.8 1.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>23.6 2.8 1.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>41671.69999999992</ixx>
+        <iyy>155494.49999999962</iyy>
+        <izz>2332623.9999999977</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>49559.99999999994</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box02">
+  <pose frame="">-46.9 27.8 0.25 0 0 -0.683709</pose>
+  <link name="box02link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1.4 1.2 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1.4 1.2 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>59.149999999999686</ixx>
+        <iyy>33.249999999999694</iyy>
+        <izz>118.9999999999995</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>419.9999999999983</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box03">
+  <pose frame="">-39.8 32 0.25 0 0 0.12751</pose>
+  <link name="box03link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.2 2 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.2 2 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>389.58333333333167</ixx>
+        <iyy>123.74999999999893</iyy>
+        <izz>810.3333333333302</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>1099.9999999999957</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl09">
+  <pose frame="">-1.5 35 1 0 0 0</pose>
+  <link name="cyl09link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>3.1144823004794873</radius>
+          <length>1.9999999999999987</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>3.1144823004794873</radius>
+          <length>1.9999999999999987</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>42027.964720336444</ixx>
+        <iyy>42027.964720336444</iyy>
+        <izz>73898.1131940659</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>15236.724369910497</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box04">
+  <pose frame="">-9.5 36.3 0.25 0 0 -0.433581</pose>
+  <link name="box04link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>7 3.4 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>7 3.4 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>5855.791666666642</ixx>
+        <iyy>1859.3749999999845</iyy>
+        <izz>30027.66666666655</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5949.999999999976</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box05">
+  <pose frame="">3.6 28.4 0.25 0 0 0.490347</pose>
+  <link name="box05link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.6 6.6 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.6 6.6 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>15662.074999999933</ixx>
+        <iyy>554.1249999999952</iyy>
+        <izz>17989.399999999925</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4289.999999999983</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl10">
+  <pose frame="">-21.9 8.8 0.5 0 0 0</pose>
+  <link name="cyl10link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>4.964876634922564</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>4.964876634922564</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>241839.4752241075</ixx>
+        <iyy>241839.4752241075</iyy>
+        <izz>477225.595538966</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>38720.1294554942</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box06">
+  <pose frame="">-51.8 -0.5 1 0 0 0.0370201</pose>
+  <link name="box06link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1.6 1.6 2</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1.6 1.6 2</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1399.466666666665</ixx>
+        <iyy>1535.9999999999975</iyy>
+        <izz>1092.2666666666662</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>2559.9999999999986</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box07">
+  <pose frame="">-35.5 -0.4 1 0 0 -0.179853</pose>
+  <link name="box07link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1.6 2.4 2</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1.6 2.4 2</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3123.1999999999957</ixx>
+        <iyy>2303.999999999996</iyy>
+        <izz>2662.3999999999983</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>3839.9999999999973</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box08">
+  <pose frame="">-30.4 7.3 1 0 0 -1.02593</pose>
+  <link name="box08link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1.2 3.2 2</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1.2 3.2 2</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>4556.799999999996</ixx>
+        <iyy>2047.9999999999964</iyy>
+        <izz>3737.599999999998</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>3839.9999999999973</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box09">
+  <pose frame="">-12.4 6.1 1 0 0 -2.50657</pose>
+  <link name="box09link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>4.2 3.4 2</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>4.2 3.4 2</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>18516.39999999998</ixx>
+        <iyy>14755.999999999978</iyy>
+        <izz>34747.99999999998</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>14279.99999999999</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl11">
+  <pose frame="">20.2 -10.9 1.5 0 0 0</pose>
+  <link name="cyl11link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>9.581753492967767</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>9.581753492967767</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3418251.5521109425</ixx>
+        <iyy>3418251.5521109425</iyy>
+        <izz>6620180.888077326</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>144214.81076303945</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box10">
+  <pose frame="">-3.4 -40.4 1.5 0 0 -0.520814</pose>
+  <link name="box10link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3 15.8 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3 15.8 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1532442.0</ixx>
+        <iyy>106649.99999999999</iyy>
+        <izz>1532442.0</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>71100.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box11">
+  <pose frame="">9 -43.5 1.5 0 0 -0.120749</pose>
+  <link name="box11link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3.2 13 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3.2 13 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>925599.9999999999</ixx>
+        <iyy>96719.99999999999</iyy>
+        <izz>932048.0</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>62399.99999999999</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box12">
+  <pose frame="">18.8 -44.2 1.5 0 0 -0.0106379</pose>
+  <link name="box12link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3.2 13.8 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3.2 13.8 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1100908.8</ixx>
+        <iyy>102671.99999999999</iyy>
+        <izz>1107753.6000000003</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>66240.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box13">
+  <pose frame="">29 -44 1.5 0 0 0.195869</pose>
+  <link name="box13link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3.2 13.8 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3.2 13.8 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1100908.8</ixx>
+        <iyy>102671.99999999999</iyy>
+        <izz>1107753.6000000003</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>66240.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box14">
+  <pose frame="">43.9 -42.5 1.5 0 0 -1.13005</pose>
+  <link name="box14link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>17 3.2 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>17 3.2 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>130832.00000000001</ixx>
+        <iyy>407999.99999999994</iyy>
+        <izz>2034832.0</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>81600.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl12">
+  <pose frame="">4.8 -35.5 0.05 0 0 0</pose>
+  <link name="cyl12link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>2.860069929215018</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>2.860069929215018</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>26287.145629218678</ixx>
+        <iyy>26287.145629218678</iyy>
+        <izz>52552.87606851539</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>12849.11395318225</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl13">
+  <pose frame="">14.2 -36.3 0.05 0 0 0</pose>
+  <link name="cyl13link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>2.193171219946131</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>2.193171219946131</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>9091.821499366424</ixx>
+        <iyy>9091.821499366424</iyy>
+        <izz>18171.050448179707</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>7555.530331883454</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl14">
+  <pose frame="">23.8 -37.6 0.05 0 0 0</pose>
+  <link name="cyl14link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.6970562748477143</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.6970562748477143</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3260.9731744262067</ixx>
+        <iyy>3260.9731744262067</iyy>
+        <izz>6514.406526483798</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4523.893421169303</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl15">
+  <pose frame="">33.4 -36.5 0.05 0 0 0</pose>
+  <link name="cyl15link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>2.720294101747089</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>2.720294101747089</radius>
+          <length>0.09999999999999803</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>21513.888291170708</ixx>
+        <iyy>21513.888291170708</iyy>
+        <izz>43008.40342764429</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>11623.892818282238</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl16">
+  <pose frame="">-11.4 -31.2 0.75 0 0 0</pose>
+  <link name="cyl16link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>5.656854249492381</radius>
+          <length>1.4999999999999982</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>5.656854249492381</radius>
+          <length>1.4999999999999982</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>411548.637620263</ixx>
+        <iyy>411548.637620263</iyy>
+        <izz>804247.7193189873</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>50265.482457436694</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl17">
+  <pose frame="">51.8 -33.3 0.75 0 0 0</pose>
+  <link name="cyl17link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>6.894200461257273</radius>
+          <length>1.4999999999999982</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>6.894200461257273</radius>
+          <length>1.4999999999999982</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>901145.5894096163</ixx>
+        <iyy>901145.5894096163</iyy>
+        <izz>1774293.6977895221</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>74659.94941256143</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box15">
+  <pose frame="">-12 -13.2 0.15 0 0 0.0367482</pose>
+  <link name="box15link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3.4 24.2 0.3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3.4 24.2 0.3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>602423.3049999961</ixx>
+        <iyy>1141.6349999999845</iyy>
+        <izz>614220.1999999959</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>12341.99999999992</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl18">
+  <pose frame="">2.5 -43 1.5 0 0 0</pose>
+  <link name="cyl18link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.7804493814764855</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.7804493814764855</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>7680.762069037174</ixx>
+        <iyy>7680.762069037174</iyy>
+        <izz>7892.387604164616</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4979.424355939822</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl19">
+  <pose frame="">13.9 -44.6 1.5 0 0 0</pose>
+  <link name="cyl19link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.6124515496597098</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.6124515496597098</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>5717.698629533422</ixx>
+        <iyy>5717.698629533422</iyy>
+        <izz>5309.2915845667485</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4084.0704496667304</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl20">
+  <pose frame="">23.5 -44.8 1.5 0 0 0</pose>
+  <link name="cyl20link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.788854381999832</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.788854381999832</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>7791.149780902689</ixx>
+        <iyy>7791.149780902689</iyy>
+        <izz>8042.477193189874</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5026.54824574367</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl21">
+  <pose frame="">36.8 -44.3 1.5 0 0 0</pose>
+  <link name="cyl21link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.6401219466856722</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.6401219466856722</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>6010.691414388838</ixx>
+        <iyy>6010.691414388838</iyy>
+        <izz>5683.219650160272</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4225.4421190782705</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl22">
+  <pose frame="">-12.4 1.7 1.5 0 0 0</pose>
+  <link name="cyl22link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.1401754250991378</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.1401754250991378</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>2195.187866695867</ixx>
+        <iyy>2195.187866695867</iyy>
+        <izz>1327.322896141687</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>2042.0352248333652</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box16">
+  <pose frame="">13.6 1 1.5 0 0 0.141897</pose>
+  <link name="box16link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2 2.4 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2 2.4 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>8855.999999999996</ixx>
+        <iyy>8999.999999999995</iyy>
+        <izz>5855.999999999999</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>7199.999999999998</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box17">
+  <pose frame="">11.9 6.2 1.5 0 0 0.328553</pose>
+  <link name="box17link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3 3.4 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3 3.4 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>26213.999999999985</ixx>
+        <iyy>22949.99999999999</iyy>
+        <izz>26213.99999999999</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>15299.999999999996</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box18">
+  <pose frame="">10 12.3 1.5 0 0 0.291457</pose>
+  <link name="box18link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3 3.4 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3 3.4 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>26213.999999999985</ixx>
+        <iyy>22949.99999999999</iyy>
+        <izz>26213.99999999999</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>15299.999999999996</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box19">
+  <pose frame="">7.9 18.9 1.5 0 0 0.353997</pose>
+  <link name="box19link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.4 3.4 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.4 3.4 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>20971.199999999993</ixx>
+        <iyy>16523.999999999993</iyy>
+        <izz>17666.399999999998</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>12239.999999999998</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl23">
+  <pose frame="">6.6 23 0.5 0 0 0</pose>
+  <link name="cyl23link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.131370849898476</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.131370849898476</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>810.9497836466445</ixx>
+        <iyy>810.9497836466445</iyy>
+        <izz>1286.7963509103795</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>2010.6192982974678</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl24">
+  <pose frame="">9 15.5 0.5 0 0 0</pose>
+  <link name="cyl24link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.6082762530298218</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.6082762530298218</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>102.1933910273977</ixx>
+        <iyy>102.1933910273977</iyy>
+        <izz>107.52100856911055</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>581.1946409141115</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl25">
+  <pose frame="">10.6 9.1 0.5 0 0 0</pose>
+  <link name="cyl25link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.7211102550927979</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.7211102550927979</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>174.25367251911362</ixx>
+        <iyy>174.25367251911362</iyy>
+        <izz>212.3716633826701</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>816.8140899333464</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl26">
+  <pose frame="">12.8 3.4 0.5 0 0 0</pose>
+  <link name="cyl26link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.7211102550927979</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.7211102550927979</radius>
+          <length>0.9999999999999979</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>174.25367251911362</ixx>
+        <iyy>174.25367251911362</iyy>
+        <izz>212.3716633826701</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>816.8140899333464</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl27">
+  <pose frame="">-15.1 -3 1.5 0 0 0</pose>
+  <link name="cyl27link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>251.32741228718348</ixx>
+        <iyy>251.32741228718348</iyy>
+        <izz>31.415926535897945</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>314.1592653589794</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl28">
+  <pose frame="">-14.9 -5.2 1.5 0 0 0</pose>
+  <link name="cyl28link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>159.78925634321087</ixx>
+        <iyy>159.78925634321087</iyy>
+        <izz>13.273228961416882</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>204.2035224833366</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl29">
+  <pose frame="">-14.7 -8.2 1.5 0 0 0</pose>
+  <link name="cyl29link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.31622776601683794</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.31622776601683794</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>121.7367153266045</ixx>
+        <iyy>121.7367153266045</iyy>
+        <izz>7.853981633974485</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>157.0796326794897</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl30">
+  <pose frame="">-15.1 -10.9 1.5 0 0 0</pose>
+  <link name="cyl30link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.42426406871192857</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.42426406871192857</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>224.78095436434975</ixx>
+        <iyy>224.78095436434975</iyy>
+        <izz>25.446900494077337</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>282.74333882308144</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl31">
+  <pose frame="">-15 -14.3 1.5 0 0 0</pose>
+  <link name="cyl31link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.41231056256176607</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.41231056256176607</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>211.62553512744242</ixx>
+        <iyy>211.62553512744242</iyy>
+        <izz>22.698006922186263</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>267.0353755551325</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl32">
+  <pose frame="">-15 -16.7 1.5 0 0 0</pose>
+  <link name="cyl32link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.58309518948453</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.58309518948453</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>445.94907717707093</ixx>
+        <iyy>445.94907717707093</iyy>
+        <izz>90.79202768874498</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>534.0707511102647</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl33">
+  <pose frame="">-15.2 -19.1 1.5 0 0 0</pose>
+  <link name="cyl33link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>159.78925634321087</ixx>
+        <iyy>159.78925634321087</iyy>
+        <izz>13.273228961416882</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>204.2035224833366</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl34">
+  <pose frame="">-14.7 -20.7 1.5 0 0 0</pose>
+  <link name="cyl34link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>251.32741228718348</ixx>
+        <iyy>251.32741228718348</iyy>
+        <izz>31.415926535897945</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>314.1592653589794</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl35">
+  <pose frame="">-14.9 -22.5 1.5 0 0 0</pose>
+  <link name="cyl35link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.42426406871192857</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.42426406871192857</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>224.78095436434975</ixx>
+        <iyy>224.78095436434975</iyy>
+        <izz>25.446900494077337</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>282.74333882308144</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl36">
+  <pose frame="">-15 -24.1 1.5 0 0 0</pose>
+  <link name="cyl36link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.447213595499958</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>251.32741228718348</ixx>
+        <iyy>251.32741228718348</iyy>
+        <izz>31.415926535897945</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>314.1592653589794</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl37">
+  <pose frame="">-3.1 -33 1.5 0 0 0</pose>
+  <link name="cyl37link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.3</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.3</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>109.20961462041515</ixx>
+        <iyy>109.20961462041515</iyy>
+        <izz>6.361725123519331</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>141.3716694115407</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl38">
+  <pose frame="">43.1 -34 1.5 0 0 0</pose>
+  <link name="cyl38link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.36055512754639896</radius>
+          <length>2.9999999999999996</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>159.78925634321087</ixx>
+        <iyy>159.78925634321087</iyy>
+        <izz>13.273228961416882</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>204.2035224833366</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box20">
+  <pose frame="">26.2 4.3 0.25 0 0 -0.627071</pose>
+  <link name="box20link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.6 11 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.6 11 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>72244.79166666638</ixx>
+        <iyy>923.5416666666588</iyy>
+        <izz>76123.66666666637</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>7149.999999999972</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box21">
+  <pose frame="">55.2 3.4 0.25 0 0 0.444419</pose>
+  <link name="box21link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>3 12.2 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>3 12.2 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>113681.12499999952</ixx>
+        <iyy>1334.3749999999884</iyy>
+        <izz>120352.99999999948</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>9149.999999999962</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box22">
+  <pose frame="">27.3 16.3 0.25 0 0 0.832484</pose>
+  <link name="box22link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>11.2 2.4 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>11.2 2.4 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3365.5999999999854</ixx>
+        <iyy>3275.999999999973</iyy>
+        <izz>73471.9999999997</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>6719.999999999973</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box23">
+  <pose frame="">53.4 18.6 0.25 0 0 -0.686818</pose>
+  <link name="box23link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>10.8 2 0.5</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>10.8 2 0.5</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1912.4999999999918</ixx>
+        <iyy>2542.49999999998</iyy>
+        <izz>54287.999999999796</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5399.999999999979</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box24">
+  <pose frame="">27.8 11.6 1.5 0 0 0.463648</pose>
+  <link name="box24link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1 0.8 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1 0.8 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>963.9999999999999</ixx>
+        <iyy>1199.9999999999998</iyy>
+        <izz>164.00000000000003</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>1200.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box25">
+  <pose frame="">51.5 13.6 1.5 0 0 2.88904</pose>
+  <link name="box25link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1 1.2 3</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1 1.2 3</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1565.9999999999993</ixx>
+        <iyy>1799.9999999999993</iyy>
+        <izz>365.99999999999994</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>1799.9999999999995</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl39">
+  <pose frame="">24.3 37.3 0.1 0 0 0</pose>
+  <link name="cyl39link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.8601075237738272</radius>
+          <length>0.19999999999999804</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.8601075237738272</radius>
+          <length>0.19999999999999804</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>4719.3528441001445</ixx>
+        <iyy>4719.3528441001445</iyy>
+        <izz>9402.472652928887</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>5434.955290710341</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl40">
+  <pose frame="">52.3 36.7 0.1 0 0 0</pose>
+  <link name="cyl40link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.526433752247375</radius>
+          <length>0.19999999999999804</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.526433752247375</radius>
+          <length>0.19999999999999804</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>2144.1238961056447</ixx>
+        <iyy>2144.1238961056447</iyy>
+        <izz>4263.848089268408</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>3659.9554414321096</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl41">
+  <pose frame="">26.5 41.7 0.2 0 0 0</pose>
+  <link name="cyl41link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.6401219466856722</radius>
+          <length>0.399999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.6401219466856722</radius>
+          <length>0.399999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>2897.949053334512</ixx>
+        <iyy>2897.949053334512</iyy>
+        <izz>5683.219650160272</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4225.4421190782705</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl42">
+  <pose frame="">50.1 41.2 0.2 0 0 0</pose>
+  <link name="cyl42link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.7691806012954132</radius>
+          <length>0.399999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.7691806012954132</radius>
+          <length>0.399999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>3912.7882001991366</ixx>
+        <iyy>3912.7882001991366</iyy>
+        <izz>7694.46726698846</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>4916.592502868026</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl43">
+  <pose frame="">30.5 45 0.3 0 0 0</pose>
+  <link name="cyl43link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.5652475842498528</radius>
+          <length>0.599999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.5652475842498528</radius>
+          <length>0.599999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>2472.629767916015</ixx>
+        <iyy>2472.629767916015</iyy>
+        <izz>4714.352475793183</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>3848.451000647496</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl44">
+  <pose frame="">47.2 44.6 0.3 0 0 0</pose>
+  <link name="cyl44link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>1.208304597359457</radius>
+          <length>0.599999999999998</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>1.208304597359457</radius>
+          <length>0.599999999999998</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>905.8782416626159</ixx>
+        <iyy>905.8782416626159</iyy>
+        <izz>1674.154725098</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>2293.3626371205482</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box26">
+  <pose frame="">38.6 48.2 0.4 0 0 0.0166651</pose>
+  <link name="box26link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>11.6 1.4 0.8</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>11.6 1.4 0.8</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1407.466666666661</ixx>
+        <iyy>5370.026666666638</iyy>
+        <izz>73902.82666666647</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>6495.999999999983</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box27">
+  <pose frame="">53.3 -7.2 2 0 0 -0.785398</pose>
+  <link name="box27link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2 2 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2 2 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>13333.333333333334</ixx>
+        <iyy>16000.0</iyy>
+        <izz>5333.333333333333</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>8000.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box28">
+  <pose frame="">53.3 -11.4 2 0 0 0.812419</pose>
+  <link name="box28link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.2 2.2 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.2 2.2 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>16810.933333333338</ixx>
+        <iyy>20005.33333333334</iyy>
+        <izz>7808.5333333333365</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>9680.000000000002</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box29">
+  <pose frame="">53 -15.7 2 0 0 0.885067</pose>
+  <link name="box29link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.2 2 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.2 2 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>14666.666666666666</ixx>
+        <iyy>18186.666666666668</iyy>
+        <izz>6482.666666666667</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>8800.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box30">
+  <pose frame="">52.5 -19.5 2 0 0 0.699893</pose>
+  <link name="box30link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2.4 2.6 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2.4 2.6 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>23670.400000000005</ixx>
+        <iyy>26624.0</iyy>
+        <izz>13020.800000000001</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>12480.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box31">
+  <pose frame="">52 -24 2 0 0 0.704494</pose>
+  <link name="box31link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>2 1.8 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>2 1.8 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>11544.0</ixx>
+        <iyy>14400.0</iyy>
+        <izz>4344.0</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>7200.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl45">
+  <pose frame="">25.1 9.2 2 0 0 0</pose>
+  <link name="cyl45link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.9219544457292888</radius>
+          <length>4.0</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.9219544457292888</radius>
+          <length>4.0</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>2063.960923561544</ixx>
+        <iyy>2063.960923561544</iyy>
+        <izz>567.4501730546564</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>1335.176877775662</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="cyl46">
+  <pose frame="">55.2 11.4 2 0 0 0</pose>
+  <link name="cyl46link">
+    <visual name="visual1">
+      <geometry>
+        <cylinder>
+          <radius>0.8485281374238571</radius>
+          <length>4.0</length>
+        </cylinder>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <cylinder>
+          <radius>0.8485281374238571</radius>
+          <length>4.0</length>
+        </cylinder>
+      </geometry>
+      <laser_retro>1000.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>1711.5396776757198</ixx>
+        <iyy>1711.5396776757198</iyy>
+        <izz>407.1504079052374</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>1130.9733552923258</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box32">
+  <pose frame="">21.5 26.5 2 0 0 -0.0106379</pose>
+  <link name="box32link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1.2 14.6 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1.2 14.6 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>669147.2</ixx>
+        <iyy>60736.0</iyy>
+        <izz>626632.0</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>35040.0</mass>
+    </inertial>
+  </link>
+</model>
+
+<model name="box33">
+  <pose frame="">57 28.3 2 0 0 0.165149</pose>
+  <link name="box33link">
+    <visual name="visual1">
+      <geometry>
+        <box>
+          <size>1 12.4 4</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name="collision1">
+      <geometry>
+        <box>
+          <size>1 12.4 4</size>
+        </box>
+      </geometry>
+      <laser_retro>500.0</laser_retro>
+    </collision>
+    <inertial>
+      <inertia>
+        <ixx>350837.33333333343</ixx>
+        <iyy>41333.333333333336</iyy>
+        <izz>319837.3333333334</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+      <pose frame="">0 0 0 0 0 0</pose>
+      <mass>24800.0</mass>
     </inertial>
   </link>
 </model>
